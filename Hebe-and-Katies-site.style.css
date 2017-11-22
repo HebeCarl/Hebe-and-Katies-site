@@ -1,3 +1,139 @@
-.h a { 
-            color: pink; 
-        	}
+   #header {
+      text-align: center;
+      height: 250px;
+      width:cover;
+      color: white;
+      background-repeat: repeat-y;
+      margin-top: 50px; 
+      margin-bottom: 200px; 
+      display: inline-block;
+    }
+    #logo {
+      margin: 0px 0px 0px 40px;
+      float: left;
+      size: 90%;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    img {
+      size:80%;
+      margin: 0px 0px 0px 0px; 
+    }
+    #navbar {
+      padding: 50px;
+      margin-top: 0px;
+      text-align: right;
+      font-family: 'arial', cursive;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      float: right;
+      width: 50%;
+      top: 0;
+      text-decoration: none;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    body {background-image: url('http://mediad.publicbroadcasting.net/p/shared/pmp/201703/871dbf57-20ce-4849-87a8-88a7bde9b616.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   }
+
+    article {
+      max-width: 1000px;
+      padding: 20px;
+      margin: 0 auto;
+      color: white;
+ }
+  #content {   
+      background: rgba(255, 105, 180, 0.5);
+      background-position: center;
+      box-shadow: 25px 25px 50px 0 black inset, -25px -25px 50px 0 black inset; 
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+
+    @media (max-width: 1000px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+        color: #000;
+      }
+      li {
+        padding: 0px;
+        display: block;
+      }
+      header{
+        background-size: 100%;
+      }
+    .profile{
+        width:100px;
+        height:100px;
+    }
+    .footer {
+         position: fixed;
+        left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .btn {
+    margin-top: calc(50% + 25px);
+    position: relative;
+    display: inline-block;
+    width: 277px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:17px;
+    letter-spacing: 0.045em;
+}
+
+.btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn svg rect {
+    //stroke: #EC0033;
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.btn span{
+  background: rgb(255,130,130);
+  background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+  background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+    
+ 
