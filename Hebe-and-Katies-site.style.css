@@ -5,20 +5,32 @@
       color: white;
       background-repeat: repeat-y;
       margin-top: 50px; 
-      margin-bottom: 200px; 
-      display: inline-block;
+      margin-bottom: 400px; 
+      display: inline;
+      padding:  00px;
     }
     #logo {
       margin: 0px 0px 0px 40px;
       float: left;
       size: 90%;
     }
+    #socialtopnav {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 50px;
+    float: right;
+    font-size: 30px;
+    color: white;
+    width:400px;
+    height:100px;
+    text-align: left;
+}
     a {
-      color: white;
+      color: white !important;
       text-decoration: none;
     }
     img {
-      size:80%;
+      size:70%;
       margin: 0px 0px 0px 0px; 
     }
     #navbar {
@@ -50,35 +62,28 @@
       padding: 20px;
       margin: 0 auto;
       color: white;
- }
-  #content {   
-      background: rgba(255, 105, 180, 0.5);
-      background-position: center;
-      box-shadow: 25px 25px 50px 0 black inset, -25px -25px 50px 0 black inset; 
-      margin-left: 200px;
-      margin-right: 200px;
     }
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-        color: #000;
-      }
-      li {
-        padding: 0px;
-        display: block;
-      }
-      header{
+    header{
         background-size: 100%;
+        display:inline-block;
       }
     .profile{
         width:100px;
         height:100px;
     }
   .button-container{
+    padding top: 600px;
     text-align:center;
-    height:500px;
+    height:600px;
     display:block;
 }
+  .top-bar{
+display:inline-block;
+width: 100%;
+height:450px;
+  }
+
+
   .homebtn {
     position: relative;
     margin: 25px;
@@ -132,14 +137,3 @@
     stroke-dashoffset: 437;
 }
 
-  #bottomnav {
-    padding: 50px;
-    margin-top: 200px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    text-align: right
-    top: 0;
-    text-decoration: none;
-}
