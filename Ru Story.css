@@ -1,0 +1,70 @@
+   #header {
+      text-align: center;
+      height: 50px;
+      width:cover;
+      color: white;
+      background-repeat: repeat-y;
+      margin-top: 50px; 
+      margin-bottom: 200px; 
+      display: inline-block;
+    }
+    #logo {
+      margin: 0px 0px 0px 40px;
+      float: left;
+      size: 90%;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    img {
+      size:70%;
+      margin: 0px 0px 0px 0px; 
+    }
+    #navbar {
+      padding: 50px;
+      margin-top: 0px;
+      text-align: right;
+      font-family: 'arial', cursive;
+      font-size: 20px;
+      color: #ffb6c1;
+      text-decoration: none;
+      float: right;
+      width: 50%;
+      top: 0;
+      text-decoration: none;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    body {
+    background-image: URL(https://timedotcom.files.wordpress.com/2017/04/time-100-2017-rupaul-miles-aldridge1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+    #content {
+      text-align: center;  
+      background: rgba(220, 220, 220, 0.5);
+      background-position: center;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-bottom: 200px;
+    }
+    
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+article {
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+}
+
