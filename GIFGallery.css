@@ -1,0 +1,96 @@
+   #header {
+      text-align: center;
+      height: 50px;
+      width:cover;
+      color: white;
+      background-repeat: repeat-y;
+      margin-top: 50px; 
+      margin-bottom: 200px; 
+      display: inline-block;
+    }
+    #logo {
+      margin: 0px 0px 0px 40px;
+      float: left;
+      size: 90%;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    img {
+      size:70%;
+      margin: 0px 0px 0px 0px; 
+    }
+    #navbar {
+      padding: 50px;
+      margin-top: 0px;
+      text-align: right;
+      font-family: 'arial', cursive;
+      font-size: 20px;
+      color: #ffb6c1;
+      text-decoration: none;
+      float: right;
+      width: 50%;
+      top: 0;
+      text-decoration: none;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    body {
+    background-image: URL(https://www.vogue.com/wp-content/uploads/2015/03/02/holding-rupaul-interview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.Gif {
+  display:inline-block;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none !important;
+    font-family: 'arial'!important;
+    font-weight:500px;
+    font-size:20px;
+    color: white;
+    margin: 15px;
+}
+
+.gifs{
+  padding-top: 0px;
+  word-wrap: break-word !important;
+}
+.container{
+  word-wrap: break-word !important;
+  width: 1600px;
+  padding: 100px;
+}
+
+.col-sm-4{
+}
+
+#Gif1 {
+ 
+} 
+
+#Gif2 {
+  
+}
+ 
+#Gif3 {
+  
+}
+
+#Gif4 {
+  
+}
+
+#Gif5 {
+  
+}
