@@ -5,7 +5,7 @@
       color: white;
       background-repeat: repeat-y;
       margin-top: 50px; 
-      margin-bottom: 200px; 
+      margin-bottom: 50px; 
       display: inline-block;
     }
     #logo {
@@ -23,7 +23,7 @@
     }
     #navbar {
       padding: 50px;
-      margin-top: 0px;
+      margin-top: 25px;
       text-align: right;
       font-family: 'arial', cursive;
       font-size: 20px;
@@ -44,10 +44,14 @@
     background-attachment: fixed;
     background-size: cover;
    }
+   h2 {
+    color: white;
+    font-size: 40;
+   }
 
     article {
       max-width: 1000px;
-      padding: 20px;
+      padding: 10px;
       margin: 0 auto;
       color: white;
  }
@@ -78,11 +82,13 @@
     text-align:center;
     height:500px;
     display:block;
+    float:right;
+    margin-top: 25px;
 }
   .homebtn {
     position: relative;
     margin: 25px;
-    display: inline-block;
+    display: block;
     width: 277px;
     height: 62px;
     font-size: 1em;
@@ -135,11 +141,24 @@
   #bottomnav {
     padding: 50px;
     margin-top: 200px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-family: 'lucinda console', sans-serif;
+    font-size: 30px;
     color: white;
     text-decoration: none;
     text-align: right
     top: 0;
     text-decoration: none;
+    margin-bottom: 50px;
+    margin:100px;
+}
+.row{
+  width: 100%;
+}
+
+.col-sm-8{
+  float: right;
+}
+.col-sm-2{
+  text-align: right;
+  display:inline;
 }
