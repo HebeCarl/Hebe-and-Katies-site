@@ -146,17 +146,13 @@
     text-align: right;
     top: 0;
     text-decoration: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .row{
     width: 100%;
-    align-content: center;
-}
-.col-sm-2{
-  text-align: center;
 }
 
-.col-sm-2{
+.socialbottom{
     text-align: right;
     display:inline-block;
 }
