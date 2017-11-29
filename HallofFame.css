@@ -74,7 +74,7 @@
       h1 {
         font-size: 36px;
         padding: 5px;
-        color: #000;
+        color: white
       }
       li {
         padding: 0px;
@@ -148,22 +148,22 @@
 }
 
   #bottomnav {
-    padding: 50px;
-    margin-top: 50px;
+    padding: 20px;
+    margin-top: 20px;
     font-size: 30px;
     color: white;
     text-decoration: none;
     text-align: right;
     top: 0;
     text-decoration: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .row{
   width: 100%;
 }
 
-.col-sm-2{
-  text-align: right;
+.socialbottom{
+  text-align: center;
   display:inline-block;
 }
 li{
