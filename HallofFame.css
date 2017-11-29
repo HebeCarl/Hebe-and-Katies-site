@@ -21,6 +21,14 @@
       size:80%;
       margin: 0px 0px 0px 0px; 
     }
+
+    .carousel-inner img{
+      object-fit:cover;
+      height: 600px !important;
+    }
+
+
+
     #navbar {
       padding: 50px;
       margin-top: 25px;
