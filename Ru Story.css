@@ -51,8 +51,9 @@
       background-position: center;
       margin-left: 200px;
       margin-right: 200px;
-      margin-bottom: 200px;
-    }
+      margin-bottom: 50px;
+      box-shadow: 25px 25px 50px 0 white, -25px -25px 50px 0 white; 
+  }
     
 h1 {
   font-family: arial;
@@ -68,3 +69,87 @@ article {
   padding: 40px;
 }
 
+.button-container{
+    text-align:center;
+    height:500px;
+    display:block;
+    float:right;
+    margin-top: 25px;
+}
+  .homebtn {
+    position: relative;
+    margin: 25px;
+    display: block;
+    width: 277px;
+    height: 62px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:17px;
+    letter-spacing: 0.045em;
+}
+
+.homebtn svg {
+    position: absolute;
+    overflow: visible !important;
+    top: 0;
+    left: 0;
+}
+
+.homebtn svg rect {
+    //stroke: #EC0033;
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.homebtn span{
+  background: rgb(255,130,130);
+  background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+  background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.homebtn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
+  #bottomnav {
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    top: 0;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+.row{
+  width: 100%;
+}
+
+.col-sm-2{
+  text-align: right;
+  display:inline-block;
+}
+li{
+  display:inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}

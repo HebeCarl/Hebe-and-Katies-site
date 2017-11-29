@@ -129,7 +129,7 @@
 }
 .container{
   word-wrap: break-word !important;
-  width: 1600px;
+  width: 1500px;
   padding: 200px;
 }
 
@@ -147,6 +147,9 @@
 .row{
     width: 1400px;
     align-content: center;
+}
+.col-sm-2{
+  text-align: center;
 }
 
 .col-sm-2{
